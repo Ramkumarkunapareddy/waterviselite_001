@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginTest(failed)">
+    <parameter name="author" value="Ramkumar"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="login_Module.Login_UI">
+        <methods>
+          <include name="logincheckafterclosethe_Browser"/>
+          <include name="qiut"/>
+          <include name="close"/>
+          <include name="GenerateExtentReports"/>
+          <include name="setup"/>
+          <include name="SetAllStiff"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- login_Module.Login_UI -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+		<class name="Smart_Irrigation.Based_class1"/>
+		<class name="Smart_Irrigation.Login_Rtu7"/>
+      <class name="Smart_Irrigation.Irrigation_Screen"/>
+      <class name="Smart_Irrigation.Z11_Valve_Select"/>
+      <class name="Smart_Irrigation.DeliveryLiters_TimeBased"/>
+      <class name="Smart_Irrigation.AfterIrrigation_Statuscard"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

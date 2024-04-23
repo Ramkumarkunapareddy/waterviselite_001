@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 227.979 s <<< FAILURE! - in TestSuite
+login_Module.Login_UI.TabFunctionalitytoLogin  Time elapsed: 13.749 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (5f48c9d579a94a8f66d28bafb762da8c)] -> xpath: //div[@id='navbarSupportedContent']/app-navigation/ul[2]/li/a] (tried for 10 second(s) with 500 milliseconds interval)
+	at login_Module.Login_UI.TabFunctionalitytoLogin(Login_UI.java:67)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='navbarSupportedContent']/app-navigation/ul[2]/li/a"}
+  (Session info: chrome=123.0.6312.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f48c9d579a94a8f66d28bafb762da8c, findElement {using=xpath, value=//div[@id='navbarSupportedContent']/app-navigation/ul[2]/li/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\ramkumar.k\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61463}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61463/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f48c9d579a94a8f66d28bafb762da8c
+	at login_Module.Login_UI.TabFunctionalitytoLogin(Login_UI.java:67)
+
+login_Module.Login_UI.logincheckafterclosethe_Browser  Time elapsed: 20.492 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9078db3238afb6dfc86bf3bd2c55015e, findElement {using=xpath, value=//a[@class='dropdown-toggle nav-link text-muted waves-effect waves-dark pro-pic img-line-height']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\ramkumar.k\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61893}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61893/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9078db3238afb6dfc86bf3bd2c55015e
+	at login_Module.Login_UI.logincheckafterclosethe_Browser(Login_UI.java:250)
+
+login_Module.Login_UI.NoFarms_User  Time elapsed: 10.747 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='navbarSupportedContent']/app-navigation/ul[2]/li/a"}
+  (Session info: chrome=123.0.6312.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a24f5d0278969c4f4ae7a9d9c6e4304, findElement {using=xpath, value=//div[@id='navbarSupportedContent']/app-navigation/ul[2]/li/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\ramkumar.k\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61967}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61967/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a24f5d0278969c4f4ae7a9d9c6e4304
+	at login_Module.Login_UI.NoFarms_User(Login_UI.java:268)
+
+login_Module.Login_UI.Farmhave_user  Time elapsed: 10.836 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='navbarSupportedContent']/app-navigation/ul[2]/li/a"}
+  (Session info: chrome=123.0.6312.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c97083cb25d6398ea27c6d72c5b2663a, findElement {using=xpath, value=//div[@id='navbarSupportedContent']/app-navigation/ul[2]/li/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\ramkumar.k\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61999}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61999/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c97083cb25d6398ea27c6d72c5b2663a
+	at login_Module.Login_UI.Farmhave_user(Login_UI.java:285)
+

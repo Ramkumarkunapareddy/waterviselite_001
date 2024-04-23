@@ -1,0 +1,1 @@
+{"uuid":"eef0b30a-2e3f-4745-b887-443d073083dd","name":"login_Module.Based_class.close","children":["cc13b8e8-3517-4d2f-8988-68b3f5da1d7e"],"description":"","befores":[],"afters":[{"name":"close","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1702890017591,"stop":1702890021142}],"start":1702890017590,"stop":1702890021143}
